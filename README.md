@@ -3,32 +3,95 @@ Vicessentia Print — услуга по нанесению логотипов и
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>www.VicessentiaPrint.kz</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
-    header { background: #4caf50; color: white; padding: 20px; text-align: center; font-size: 24px; }
-    .container { padding: 20px; max-width: 900px; margin: auto; background: white; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    h2 { color: #4caf50; }
-    .btn { display: inline-block; padding: 10px 18px; background: #4caf50; color: white; text-decoration: none; border-radius: 6px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicessentia Print</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffef5;
+            color: #333;
+        }
+        header {
+            background-color: #a3c9a8;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #fff;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #d9e6d8;
+        }
+        nav a {
+            margin: 0 15px;
+            padding: 15px 0;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #558b5d;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #a3c9a8;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-  <header>Vicessentia — Брендирование и Логотипы</header>
 
-  <div class="container">
-    <h2>Создание и брендирование логотипа</h2>
-    <p>Я создаю натуральные, живые и эстетичные логотипы в эко-стиле.  </p>
+<header>
+    <h1>Vicessentia Print</h1>
+    <p>Брендирование сувенирной продукции</p>
+</header>
 
+<nav>
+    <a href="#services">Услуги</a>
+    <a href="#portfolio">Портфолио</a>
+    <a href="#contacts">Контакты</a>
+</nav>
+
+<section id="services">
+    <h2>Наши услуги</h2>
+    <ul>
+        <li>Лазерная гравировка на металле, дереве, пластике</li>
+        <li>Ручной маркиратор — быстрое и качественное нанесение логотипа</li>
+        <li>Печать на текстиле и сувенирах: футболки, кружки, блокноты</li>
+    </ul>
+</section>
+
+<section id="portfolio">
     <h2>Портфолио</h2>
-    <p>Здесь можно разместить изображения логотипов, примеры работ и макеты.</p>
+    <p>Здесь вы можете добавить фотографии своих работ — примеры брендирования сувениров.</p>
+</section>
 
-    <h2>Контакты для заказа</h2>
+<section id="contacts">
+    <h2>Контакты</h2>
+    <p>Телефон: +7 707 321 96 46 </p>
     <p>WhatsApp: +7 707 321 96 46</p>
-    <p>Instagram: @yourbrand</p>
+    <p>Email: info@vicessentiaprint.kz</p>
+</section>
 
-    <a href="#" class="btn">Заказать логотип</a>
-  </div>
+<footer>
+    <p>&copy; 2025 Vicessentia Print</p>
+</footer>
+
 </body>
 </html>
