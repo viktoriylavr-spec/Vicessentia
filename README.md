@@ -5,7 +5,7 @@ Vicessentia Print — услуга по нанесению логотипов и
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Мой сайт</title>
+  <title>www.VicessentiaPrint.kz</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
     header { background: #4caf50; color: white; padding: 20px; text-align: center; font-size: 24px; }
